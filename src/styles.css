@@ -1,3 +1,15 @@
+@import './checkbox.css';
+@import './box-container.css';
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: red;
+  font-family: Arial, Helvetica, sans-serif;
 }
